@@ -1,0 +1,48 @@
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 26%, rgba(164,27,27,1) 87%, rgba(252,176,69,1) 100%);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif; 
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: blue;
+    font-weight: bolder;
+}
+#mainbox{
+   background-image: url(./night.gif);
+   margin: auto;
+   max-width: 400px;
+   text-align: center;
+   padding: 10px;
+   border-radius: 6px;
+   box-shadow: 3px 3px 6px black;
+}
+
+#clock{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    animation: color-change 3s infinite;
+    margin-bottom: 50px;
+   
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: hsl(140, 87%, 24%); }
+    100% { color: blue; }
+  }
+button:hover{
+    background-color: hsl(214, 87%, 21%);
+}
+#format{
+    font-size: 3rem;
+    font-family:sans-serif;
+    font-weight: 900;
+    color: yellowgreen;
+}
+#welcome{
+    font-weight: 900;
+    color: yellowgreen;
+}
